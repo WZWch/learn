@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/turn_on"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/turn_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搜索"
+        android:textAllCaps="false"/>
+    <TextView
+        android:id="@+id/getMessage"
+        android:text="PIN码：1234\n"
+
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="250dp"
+        android:gravity="center_horizontal"
+        />
+
+    <ListView
+        android:id="@+id/search_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>
